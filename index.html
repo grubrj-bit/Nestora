@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nestora | Smart Home Solutions That Save You Space</title>
+  <meta name="description" content="Problem-solving home products you can see working in 15 seconds. Organizers, space savers and kitchen gadgets shipped to your door.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #FAF7F2;
+      color: #2B2622;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .logo {
+      font-size: clamp(52px, 12vw, 76px);
+      font-weight: 800;
+      letter-spacing: -2px;
+      line-height: 1;
+    }
+    .logo span { color: #E85D3D; }
+    .tagline {
+      margin-top: 18px;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #5A524B;
+    }
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #E85D3D;
+      margin-right: 8px;
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .dot { animation: none; }
+    }
+    .status {
+      margin-top: 36px;
+      font-size: 14px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #8A8078;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1 class="logo">Nesto<span>r</span>a</h1>
+    <p class="tagline">Problem-solving home products, proven in 15 seconds.</p>
+    <p class="status"><span class="dot" aria-hidden="true"></span>Opening soon</p>
+  </main>
+</body>
+</html>
